@@ -1,11 +1,14 @@
-import * as C from "./app.style";
+import { Container } from "./app.style";
+import { Header } from "./components/header"
+
 function App() {
   return (
     <div className="App">
- <C.container>
-  ss
- </C.container>
+      <Container>
+      <Header></Header>
+      </Container>
     </div>
-  ); 
+  );
 }
+
 export default App;
